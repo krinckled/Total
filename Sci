@@ -1,0 +1,104 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Total Drama Island", "Ocean")
+
+--Teleports
+local Tab = Window:NewTab("Teleport")
+local MainSection = Tab:NewSection("Teleports")
+
+MainSection:NewButton("Lobby", "Teleports you to the lobby", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/2a3hN7BG"))()
+end)
+
+MainSection:NewButton("Bag Hit", "Teleports you to the bag", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iRiaEsVV"))()
+end)
+
+MainSection:NewButton("Bag Hit 2", "Teleports you to the 2nd bag", function ()
+loadstring(game:HttpGet("https://pastebin.com/raw/MnYRP79Y"))()
+end)
+
+MainSection:NewButton("Bag Hit 3", "Teleports you to the 3rd bag", function ()
+loadstring(game:HttpGet("https://pastebin.com/raw/A56EQ22e"))()
+end)
+MainSection:NewButton("Bag Hit 4", "Teleports you to the 4th bag", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/qvNDH3nc"))()
+end)
+
+MainSection:NewButton("Bag Hit 5", "Teleports you to the 5th bag", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/FvvUr89k"))()
+end)
+
+MainSection:NewButton("Bag Hit 6", "Teleports you to the 6th bag", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/73iz1sw2"))()
+end)
+
+MainSection:NewButton("Saftey Stachu Hit", "Teleports you to the saftey stathu", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9JmEmVri"))()
+end)
+MainSection:NewButton("Saftey Statchu Hit 2", "Teleports you to the saftey statchu", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/yapCNt09"))()
+end)
+
+MainSection:NewButton("Saftey Statchu Hit 3", "Teleports you to the saftey statchu", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/d2wH5155"))()
+end)
+MainSection:NewButton("Saftey Statchu Hit 4", "Teleports you to the saftey statchu", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZbV2Nzmc"))()
+end)
+--LOCAL PLAYER
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+
+PlayerSection:NewSlider("Walkspeed", "Changes your speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("Jumpower", "Changes your jump power", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+
+--Win game
+local Tab = Window:NewTab("Win")
+local Section = Tab:NewSection("Win Game")
+
+Section:NewButton("Win Lava Map", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/usp2mmVd"))()
+end)
+
+Section:NewButton("Win Cave Chaos", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/YzZi6QCU"))()
+end)
+
+Section:NewButton("Win Rails Map", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/2mhqK5nL"))()
+end)
+
+Section:NewButton("Win Blox Parkour", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sRw9HiVS"))()
+end)
+    
+Section:NewButton("Win Tire Map", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/KtZ2FuZz"))()
+end)
+
+Section:NewButton("Win Spleef", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/2a3hN7BG"))()
+end)
+
+Section:NewButton("Win Wall Climb", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/WRWeKQVs"))()
+end)
+
+Section:NewButton("Sword Fight", "Gives advantage", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nounours14/Exploits/main/CdScript.lua"))()
+end)
+
+Section:NewButton("Win Moutain Climb", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/8hDKESbb"))()
+end)
+
+Section:NewButton("Win Crate Water Map", "Wins the game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HT77xKDc"))()
+end)
