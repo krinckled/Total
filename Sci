@@ -32,6 +32,11 @@ MainSection:NewButton("Bag Hit 6", "Teleports you to the 6th bag", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/73iz1sw2"))()
 end)
 
+MainSection:NewButton("Bag Hit 7", "Teleports you to the 7th bag", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Bag%207"))()
+end)
+
+
 MainSection:NewButton("Saftey Stachu Hit", "Teleports you to the saftey stathu", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/9JmEmVri"))()
 end)
