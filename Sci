@@ -45,6 +45,11 @@ end)
 MainSection:NewButton("Saftey Statchu Hit 4", "Teleports you to the saftey statchu", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/ZbV2Nzmc"))()
 end)
+
+MainSection:NewButton("Saftey Statchu Hit 5", "Teleports you to the saftey statchu", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Saftey%205"))()
+end)
+
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
 local PlayerSection = Player:NewSection("Player")
