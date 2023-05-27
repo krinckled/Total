@@ -37,7 +37,7 @@ MainSection:NewButton("Bag Hit 7", "Teleports you to the 7th bag", function()
 end)
 
 
-MainSection:NewButton("Bag Hit 9", "Teleports you to the 9th bag", function()
+MainSection:NewButton("Bag Hit 8", "Teleports you to the 9th bag", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/bag%209"))()
 end)
 
