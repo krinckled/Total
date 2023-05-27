@@ -79,10 +79,6 @@ PlayerSection:NewSlider("Jumpower", "Changes your jump power", 350, 50, function
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-PlayerSection:NewButton("Inf Jump, "Lets you jump as long as you want", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/PnMx0iwR"))()
-end)
-
 --Win game
 local Tab = Window:NewTab("Win")
 local Section = Tab:NewSection("Win Game")
