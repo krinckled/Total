@@ -124,3 +124,19 @@ end)
 Section:NewButton("Win Pole Jump Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Win"))()
 end)
+
+--Other
+local Tab = Window:NewTab("Other Stuff")
+local Section = Tab:NewSection("Other stuff")
+
+Section:NewButton("Inf yield", "Injects script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Section:NewButton("Dex", "Injects script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceSpiffer/Scripts/main/Script5"))()
+end)
+
+Section:NewButton("Shift Lock", "Injects script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0TG4ggpj"))()
+end)
