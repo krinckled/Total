@@ -88,7 +88,7 @@ Section:NewButton("Win Cave Chaos", "Wins the game", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/YzZi6QCU"))()
 end)
 
-Section:NewButton("Win Rickety Rails Map", "Wins the game", function()
+Section:NewButton("Win Rails Map", "Wins the game", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/2mhqK5nL"))()
 end)
 
@@ -125,8 +125,13 @@ Section:NewButton("Win Pole Jump Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Win"))()
 end)
 
-Section:NewButton("Win Pond Pier Map", "Wins the game", function()
+Section:NewButton("Win Pond Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20pond%20map"))()
+end)
+
+
+Section:NewButton("Win Colossal Map", "Wins the game", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20collausol"))()
 end)
 
 --Other
