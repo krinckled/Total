@@ -134,6 +134,52 @@ Section:NewButton("Win Colossal Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20collausol"))()
 end)
 
+--Coin Hunt
+
+local Tab = Window:NewTab("Win coin hunt")
+local Section = Tab:NewSection("Win coin hunt")
+
+
+Section:NewButton("Coin 1", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%201"))()
+end)
+
+Section:NewButton("Coin 2", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%202"))()
+end)
+
+Section:NewButton("Coin 3", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%203"))()
+end)
+
+Section:NewButton("Coin 4", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%204"))()
+end)
+
+Section:NewButton("Coin 5", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%205"))()
+end)
+
+Section:NewButton("Coin 6", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%206"))()
+end)
+
+Section:NewButton("Coin 7", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%207"))()
+end)
+
+Section:NewButton("Coin 8", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%208"))()
+end)
+
+Section:NewButton("Coin 9", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%209"))()
+end)
+
+Section:NewButton("Coin 10", "Coin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%2010"))()
+end)
+
 --Last Map Win
 
 
