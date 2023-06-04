@@ -134,6 +134,10 @@ Section:NewButton("Win Colossal Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20collausol"))()
 end)
 
+Section:NewButton("Pancake", "AutoClicker", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hrhJbjXx"))()
+end)
+
 --Coin Hunt
 
 local Tab = Window:NewTab("Win coin hunt")
