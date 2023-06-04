@@ -134,6 +134,16 @@ Section:NewButton("Win Colossal Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20collausol"))()
 end)
 
+--Last Map Win
+
+
+local Tab = Window:NewTab("Win last map")
+local Section = Tab:NewSection("Win Last map")
+
+Section:NewButton("Win 1st Map", "Wins the game", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%201st%20map"))()
+end)
+
 --Other
 local Tab = Window:NewTab("Other Stuff")
 local Section = Tab:NewSection("Other stuff")
