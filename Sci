@@ -125,7 +125,7 @@ Section:NewButton("Win Pole Jump Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Win"))()
 end)
 
-Section:NewButton("Win Pond Map", "Wins the game", function()
+Section:NewButton("Win Pond Pier Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20pond%20map"))()
 end)
 
