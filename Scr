@@ -138,6 +138,10 @@ Section:NewButton("Pancake", "AutoClicker", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/hrhJbjXx"))()
 end)
 
+Section:NewButton("PaintBall Aimbot", "Aimbot", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/71YWvURH"))()
+end)
+
 --Coin Hunt
 
 local Tab = Window:NewTab("Win coin hunt")
