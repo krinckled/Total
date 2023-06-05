@@ -142,6 +142,10 @@ Section:NewButton("PaintBall Aimbot", "Aimbot", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/71YWvURH"))()
 end)
 
+Section:NewButton("Win Construct Map", "Wins the game", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20construct%20map"))()
+end)
+
 --Coin Hunt
 
 local Tab = Window:NewTab("Win coin hunt")
