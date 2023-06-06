@@ -146,10 +146,18 @@ Section:NewButton("Win Construct Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20construct%20map"))()
 end)
 
+--Cliff Diving
+
+local Tab = Window:NewTab("Win Cliff Diving")
+local Section = Tab:NewSection("Win Cliff Diving")
+
+Section:NewButton("Cliff Diving 1", "Win", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Cliff%20diving"))()
+end)
 --Coin Hunt
 
-local Tab = Window:NewTab("Win coin hunt")
-local Section = Tab:NewSection("Win coin hunt")
+local Tab = Window:NewTab("Win Coin Hunt")
+local Section = Tab:NewSection("Win Coin Hunt")
 
 
 Section:NewButton("Coin 1", "Coin", function()
@@ -195,8 +203,8 @@ end)
 --Last Map Win
 
 
-local Tab = Window:NewTab("Win last map")
-local Section = Tab:NewSection("Win Last map")
+local Tab = Window:NewTab("Win Last Map")
+local Section = Tab:NewSection("Win Last Map")
 
 Section:NewButton("Win 1st Map", "Wins the game", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%201st%20map"))()
