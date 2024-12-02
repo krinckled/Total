@@ -33,12 +33,12 @@ MainSection:NewButton("Bag Hit 6", "Teleports you to the 6th bag", function()
 end)
 
 MainSection:NewButton("Bag Hit 7", "Teleports you to the 7th bag", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Bag%207"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/Bag%207"))()
 end)
 
 
 MainSection:NewButton("Bag Hit 8", "Teleports you to the 9th bag", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/bag%209"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/bag%209"))()
 end)
 
 MainSection:NewButton("Saftey Stachu Hit", "Teleports you to the saftey stathu", function()
@@ -56,11 +56,11 @@ MainSection:NewButton("Saftey Statchu Hit 4", "Teleports you to the saftey statc
 end)
 
 MainSection:NewButton("Saftey Statchu Hit 5", "Teleports you to the saftey statchu", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Saftey%205"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/Saftey%205"))()
 end)
 
 MainSection:NewButton("Saftey Statchu Hit 6", "Teleports you to the saftey statchu", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Saftey%206"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/Saftey%206"))()
 end)
 
 --LOCAL PLAYER
@@ -122,16 +122,16 @@ end)
 
 
 Section:NewButton("Win Pole Jump Map", "Wins the game", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Win"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/Win"))()
 end)
 
 Section:NewButton("Win Pond Map", "Wins the game", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20pond%20map"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/win%20pond%20map"))()
 end)
 
 
 Section:NewButton("Win Colossal Map", "Wins the game", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20collausol"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/win%20collausol"))()
 end)
 
 Section:NewButton("Pancake", "AutoClicker", function()
@@ -143,7 +143,7 @@ Section:NewButton("PaintBall Aimbot", "Aimbot", function()
 end)
 
 Section:NewButton("Win Construct Map", "Wins the game", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%20construct%20map"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/win%20construct%20map"))()
 end)
 
 --Cliff Diving
@@ -152,7 +152,7 @@ local Tab = Window:NewTab("Win Cliff Diving")
 local Section = Tab:NewSection("Win Cliff Diving")
 
 Section:NewButton("Cliff Diving 1", "Win", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/Cliff%20diving"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/Cliff%20diving"))()
 end)
 --Coin Hunt
 
@@ -161,43 +161,43 @@ local Section = Tab:NewSection("Win Coin Hunt")
 
 
 Section:NewButton("Coin 1", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%201"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%201"))()
 end)
 
 Section:NewButton("Coin 2", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%202"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%202"))()
 end)
 
 Section:NewButton("Coin 3", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%203"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%203"))()
 end)
 
 Section:NewButton("Coin 4", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%204"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%204"))()
 end)
 
 Section:NewButton("Coin 5", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%205"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%205"))()
 end)
 
 Section:NewButton("Coin 6", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%206"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%206"))()
 end)
 
 Section:NewButton("Coin 7", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%207"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%207"))()
 end)
 
 Section:NewButton("Coin 8", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%208"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%208"))()
 end)
 
 Section:NewButton("Coin 9", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%209"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%209"))()
 end)
 
 Section:NewButton("Coin 10", "Coin", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/coin%2010"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/coin%2010"))()
 end)
 
 --Last Map Win
@@ -207,11 +207,11 @@ local Tab = Window:NewTab("Win Last Map")
 local Section = Tab:NewSection("Win Last Map")
 
 Section:NewButton("Win 1st Map", "Wins the game", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%201st%20map"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/win%201st%20map"))()
 end)
 
 Section:NewButton("Win 2nd Map", "Wins the game", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/splamXxU/Total/main/win%202nd%20last%20map"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/krinckled/Total/main/win%202nd%20last%20map"))()
 end)
 
 --Other
